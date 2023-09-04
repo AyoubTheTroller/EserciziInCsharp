@@ -1,0 +1,14 @@
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\bin\Debug\net7.0\Esercizi by Saiani.exe
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\bin\Debug\net7.0\Esercizi by Saiani.deps.json
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\bin\Debug\net7.0\Esercizi by Saiani.runtimeconfig.json
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\bin\Debug\net7.0\Esercizi by Saiani.dll
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\bin\Debug\net7.0\Esercizi by Saiani.pdb
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.AssemblyInfoInputs.cache
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.AssemblyInfo.cs
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.csproj.CoreCompileInputs.cache
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.dll
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\refint\Esercizi by Saiani.dll
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.pdb
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\Esercizi by Saiani.genruntimeconfig.cache
+C:\Users\Lavoro\Desktop\Random Projects\ASP.NET\Esercizi by Saiani\obj\Debug\net7.0\ref\Esercizi by Saiani.dll
