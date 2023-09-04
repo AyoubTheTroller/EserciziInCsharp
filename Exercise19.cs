@@ -36,10 +36,14 @@ class ChatRoom
 class Exercise19
 {
     public static ChatRoom? chatRoom;
-    static void initializeSession(string[] args)
+    public void initializeSession()
     {
         while(true){
-            logUser();
+            manageUserSession(logUser());
+            if (!wannaKeepGoing())
+            {
+                break;
+            }
         }
     }
 
@@ -47,7 +51,7 @@ class Exercise19
         chatRoom = new ChatRoom();
     }
 
-    public static void logUser(){
+    public User logUser(){
         Console.Write("Enter your username: ");
         string? username;
         while(true){
@@ -59,34 +63,49 @@ class Exercise19
                 break;
             }
         }
-        User user = new User { Username = username };
+        return new User { Username = username };
     }
 
-    public string manageUserMessages(User user){
-        while (true)
-        {
-            Console.Clear();
-            chatRoom?.DisplayMessages();
+    public void manageUserSession(User user){
+        Console.Clear();
+        chatRoom?.DisplayMessages();
+        printChatRules();
+        manageUserMessages(user);
+    }
 
-            Console.Write("Entering a message: msg/yourMessage\nExit ChatRoom: exit");
-            string? content;
-            
-            while(true){
-                content = Console.ReadLine();
-                if(string.IsNullOrEmpty(content)){
-                    Console.WriteLine("Wrong input, retry!");
+    public void manageUserMessages(User user){
+        string? content;
+        while(true){
+            content = Console.ReadLine();
+            if(string.IsNullOrEmpty(content)){
+                Console.WriteLine("Wrong input, retry!");
+            }
+            else{
+                if(content.StartsWith("msg/")){
+                    Console.WriteLine(content.Substring(4));
+                    Message message = new Message { Sender = user.Username, Content = content.Substring(4), Timestamp = DateTime.Now };
+                    chatRoom?.AddMessage(message);
+                }
+                else if(content.Equals("exit")){
+                    Console.WriteLine("Logging out...");
+                    break;
                 }
                 else{
-                    switch(content){
-                        case "exit":
-                            Console.WriteLine("U decided to quit the chatroom... logging out");
-                            break;
-                    };
+                    Console.WriteLine("Input not recognized. Refer to the Rules.");
                 }
             }
-            
-            Message message = new Message { Sender = user.Username, Content = content, Timestamp = DateTime.Now };
-            chatRoom.AddMessage(message);
         }
+    }
+
+    public void printChatRules(){
+        Console.Write("Rules\n"
+                         +"Entering a message: msg/yourMessage\n"
+                         +"Exit ChatRoom: exit\n");
+    }
+
+    public static bool wannaKeepGoing(){
+        Console.WriteLine("Do you want to log in? y or n");
+        string? input = Console.ReadLine();
+        return input == "y";
     }
 }

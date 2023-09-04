@@ -100,6 +100,10 @@ class Program{
                     Exercise18 ex18 = new Exercise18();
                     ex18.playBlackJack();
                     break;
+                case 19:
+                    Exercise19 ex19 = new Exercise19();
+                    ex19.initializeSession();
+                    break;
                 default:
                     Console.WriteLine("Invalid choice.");
                     break;
