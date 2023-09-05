@@ -104,6 +104,10 @@ class Program{
                     Exercise19 ex19 = new Exercise19();
                     ex19.initializeSession();
                     break;
+                case 20:
+                    Exercise20 ex20 = new Exercise20();
+                    ex20.startLibrary();
+                    break;
                 default:
                     Console.WriteLine("Invalid choice.");
                     break;

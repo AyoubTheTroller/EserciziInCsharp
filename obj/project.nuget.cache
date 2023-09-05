@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ELpbOxXYSAW1IxxTLgaMh++o0TPNesPeujpudQ6BW011jVWfViN3VkZFTeB4FN6NigxTv/lB1q8Hu0naCYqA7w==",
+  "dgSpecHash": "U0XoZCgczugO/5G5IjWdl6pyuPy/JXxJHUWXAzX2aJXb02rsyMkMUKsDBB9H9pVZCJjWyDiLta/v+ciCMND8WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lavoro\\.nuget\\packages\\nstack.core\\1.0.7\\nstack.core.1.0.7.nupkg.sha512",
+    "C:\\Users\\Lavoro\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Lavoro\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512",
+    "C:\\Users\\Lavoro\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\Lavoro\\.nuget\\packages\\terminal.gui\\1.14.0\\terminal.gui.1.14.0.nupkg.sha512"
+  ],
   "logs": []
 }

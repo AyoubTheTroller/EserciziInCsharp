@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj": {}
+    "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj": {
+    "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
+        "projectUniqueName": "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
         "projectName": "Esercizi by Saiani",
-        "projectPath": "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
+        "projectPath": "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\Esercizi by Saiani.csproj",
         "packagesPath": "C:\\Users\\Lavoro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\obj\\",
+        "outputPath": "c:\\Users\\Lavoro\\Desktop\\Random Projects\\ASP.NET\\Esercizi by Saiani\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lavoro\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Terminal.Gui": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
